@@ -1,10 +1,3 @@
-<?php
-// var_dump($_GET);
-
-// echo $_GET['user_name'];
-
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -50,9 +43,9 @@
             <div>
                 <label for="mail_topic">Choisissez votre contact</label>
                 <select name="mail_topic" id="mail_topic" required>
-                    <option value="information">Information</option>
-                    <option value="reclamation">Réclamation</option>
-                    <option value="autre">Autre</option>
+                    <option value="Information">Information</option>
+                    <option value="Réclamation">Réclamation</option>
+                    <option value="Autre">Autre</option>
                 </select>
             </div>
 
